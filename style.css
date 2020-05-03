@@ -1,0 +1,306 @@
+/*Common Elements*/
+
+body {
+    background-image: url("./Assets/Space.jpg");
+    background-repeat: repeat;
+    font-size: 67.5%;
+    font-family: Tahoma, 'Geneva', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #e1692c;
+    font-size: 2em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0px;
+}
+
+h2 {
+    color: #00283e;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: black;
+    padding: 0px;
+}
+
+ul {
+    font-size: 1.2em;
+    margin: 0 0 0 1.0em;
+    padding: .3em 0 0 0em;
+}
+
+ul li {
+    margin: 0;
+    padding: 0 0 0.2em;
+}
+
+a:hover {
+    color: #333;
+}
+
+a:visited {
+    color: #333;
+}
+
+a:link {
+    color: #e1692c;
+}
+
+.contentWrapper {
+    margin: 0 auto;
+    /*max-width: 1170px;*/
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right
+}
+
+/*Header*/
+
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: #546b83 url("./Assets/physics.jpg");
+    border-bottom: 2px solid #a9aba8;
+}
+
+nav {
+    color: #ffffff;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 0.3em 1.0em 0.1em;
+    margin: 0em 0em;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #e1692c;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.1em 0.3em;
+}
+
+nav li a:hover {
+    color: #e8aa89;
+    background-color: rgba(252, 251, 243, 0.75);
+    
+}
+
+div.contentWrapper#utility {
+    margin: 0px;
+}
+
+nav#utilityMenu {
+    float: left;
+    margin: -1.5em 0 0 0;
+    background-color: #111312;
+    border-bottom-right-radius: 20em;
+    border-bottom: 1px solid #e1692c;
+    border-right: 2px solid #e1692c;
+    padding: 0 1em 0.3em 0.2em;
+    vertical-align: middle;
+}
+
+div.contentWrapper.utility nav {
+    padding-top: .5em;
+}
+
+nav.pageNav ul {
+    width: fit-content;
+    margin: auto;
+}
+
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    height: 1.3em;
+    padding: 0.2em;
+    margin: -0.4em 0 0 0;
+    font-size: 0.8em;
+}
+
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav .socialIcon {
+    height: 1.0em;
+    width: 1.0em;
+    margin-top: 0em;
+    /*
+    padding: .2em;
+    background-color: white;*/
+    border-radius: 50%;
+}
+
+/*nav#utilityMenu ul a, nav#UtilityMenu li a:visited {
+    padding: 0;
+}*/
+
+nav#utilityMenu li#navMenu a:hover {
+    background-color: rgba(252, 251, 243, 0.75);
+}
+
+nav#utilityMenu ul li input#search {
+    vertical-align: middle;
+    margin: 0 0 0 1.0em;
+}
+
+nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::before {
+    content: "| ";
+    color: #FCFBE6;
+}
+
+.logo {
+    margin: 2em auto 0;
+    width: fit-content;
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    border: .2em solid #e1692c;
+    height: 130px;
+    padding: 5px 0 0px;
+}
+
+/*MainBody*/
+
+section#sidebar {
+    width: 20%;
+    float: left;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #fff;
+    margin: 0 .2% 3.0em 1%;
+    padding: 1.5em 0.5em 2.0em 1.7em;
+    border-right: #00283e outset 3px;
+}
+
+div section#main h1 {
+    font-size: 4em;
+    margin: 0em auto .2em;
+    width: fit-content;
+    height: fit-content;
+}
+
+div.center {
+    display: inline;
+    margin: auto;
+}
+
+div.shopping {
+    position: relative;
+    margin: 0em auto;
+    height: min-content;
+}
+
+section#main {
+    background-color: white;
+    margin: 0 1% 2.0em .2%;
+    position: relative;
+    display: inline-block;
+    padding: 1.5em .5% 2.0em;
+    box-shadow: 1px 1px #777;
+    border-radius: 5px;
+    border: transparent solid .5em;
+    width: 70%;
+}
+
+section div.panel {
+    position: relative;
+    width: min-content;
+    height: min-content;
+    margin: 0 auto 2.0em;
+    padding: 1.0em;
+    display: inline-block;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+
+section div.panel img.ProductImg {
+    width: 200px;
+    height: 150px;
+}
+
+button {
+    color: #e1692c;
+    background-color: #FFF;
+    display: inline-block;
+    margin: 0 0.75em 0 0;
+    padding: 0.2em 0.5em;
+    border: 1px solid #e1692c;
+    text-transform: uppercase;
+}
+button:hover {   
+    color: #fff;
+    background-color: #e8aa89;
+    border: 1px solid #e8aa89;
+}
+
+/*Footer*/
+
+footer{
+    background-image: url("./Assets/physics.jpg");
+    text-align: center;
+    height:min-content;
+    font-size: 1.0em;
+    color:#fff;
+    padding: 0.5em 2.0em;
+}
+
+footer ul#menuFooter{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    background-color: #333;
+}
+
+footer ul li::before {
+    padding-right: 0.7em;
+}
+
+footer ul {
+    background-color: #333;
+    width: fit-content;
+    border: 5px transparent solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer ul li:nth-child(2)::before, footer ul li:nth-child(3)::before, footer ul li:nth-child(4)::before  {
+    content: "|";
+}
+footer ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
