@@ -193,6 +193,10 @@ section#sidebar {
     border-right: #00283e outset 3px;
 }
 
+section#sidebar ul {
+    text-align: left;
+}
+
 div section#main h1 {
     font-size: 4em;
     margin: 0em auto .2em;
@@ -269,6 +273,7 @@ footer{
 footer ul#menuFooter{
     display: inline-block;
     list-style: none;
+    color: #fff;
     margin: 0 0 0 0.6em;
     background-color: #333;
 }
